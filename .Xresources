@@ -1,0 +1,76 @@
+! Xcursor
+!Xcursor.theme: whiteglass
+Xcursor.theme: Vanilla-DMZ-AA
+
+! Fonts
+Xft.antialias: true
+Xft.hinting:	true
+Xft.rgba:	rgb
+Xft.hintsyle:	hintfull
+Xft.dpi:	110
+
+urxvt.font:	xft:SFNS Display:style=Regular:size=10
+urxvt.perl-ext-common: selection-to-clipboard
+urxvt.transparent:  false 
+urxvt.shading:       30
+urxvt.letterSpace: -3
+urxvt.scrollBar: false
+
+! special
+*.foreground:   #c0c7d0
+*.background:   #0f1113
+*.cursorColor:  #c0c7d0
+
+! black
+*.color0:       #191c1f
+*.color8:       #5ca142
+
+! red
+*.color1:       #212529
+*.color9:       #ec6282
+
+!green
+*.color2:       #31363b
+*.color10:      #f47591
+
+! yellow
+*.color3:       #474d54
+*.color11:      #86c373
+
+! blue
+*.color4:       #626a74
+*.color12:      #be9943
+
+! magenta
+*.color5:       #838d99
+*.color13:      #4f9d95
+
+! cyan
+*.color6:       #acb6c1
+*.color14:      #62a9e2
+
+! white
+*.color7:       #dfe3e7
+*.color15:      #b79a61
+ 
+
+! ------------------------------------------------------------------------------
+! ! ROFI Color theme
+! ! ------------------------------------------------------------------------------
+ rofi.color-enabled:    true
+ rofi.color-window:     #474d54, #212529, #212529
+ rofi.color-normal:     argb:00000000, #acb6c1, argb:00000000, argb:00000000,#acb6c1
+ rofi.color-active:     argb:00000000, #62a9e2, argb:00000000, argb:00000000, #62a9e2
+ rofi.color-urgent:     argb:00000000, #ec6282, argb:00000000, argb:00000000, #ec6282
+ rofi.lines:            6 
+ rofi.fullscreen:        false
+ rofi.font:              San Francisco System Display 20
+ rofi.separator-style:   solid
+ rofi.bw:                0
+ rofi.eh:                1
+ rofi.line-margin:       10
+ rofi.hide-scrollbar:    true
+ rofi.width:            50 
+ rofi.height:           50
+ rofi.padding:           100
+! rofi.fake-transparency: true
