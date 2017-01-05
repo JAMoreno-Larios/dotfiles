@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/jose/spieLocal/unirse'
+let g:netrw_dirhist_2='/home/jose/spieLocal'
+let g:netrw_dirhist_3='/home/jose/Documents/Doctorado/Programas/Propagador Geométrico/Fuentes'
